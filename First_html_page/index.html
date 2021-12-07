@@ -2,24 +2,31 @@
 <html>
     <head>
         <Title>My First Web Page</Title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles2.css">
+        <style>
+            body {
+                background-color: lightgreen;
+            }
+        </style>
     </head>
     <body>
         <Header>
             <nav>
                 <a href="#">Home</a>
-                <a href="http://www.google.com">Google</a>
+                <a id="no-underline" href="http://www.google.com">Google</a>
                 <a href="http://www.youtube.com" target="_blank">Youtube</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
                 <a href="#help">Help</a>
             </nav>
-            <h1>My First Web Page</h1>
+            <h1 style="color: blue; text-decoration: underline;">My First Web Page</h1>
         </Header>
         <main>
-            <h2>About me</h2>
+            <h2 class="fantastic">About me</h2>
             <article>
                 <section>
-                    <h3>Before Coding</h3>
+                    <h3 class="fantastic">Before Coding</h3>
                 </section>
                 <section>
                     <h3>After Coding</h3>
@@ -29,13 +36,13 @@
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla tristique rutrum. Nunc sed ullamcorper erat, ut condimentum ligula. Quisque ac venenatis sapien. Maecenas et finibus dui, nec lacinia urna. Nullam a elit auctor, luctus nunc bibendum, pellentesque nisi. Suspendisse potenti. Cras vehicula sapien a elementum porttitor. Aliquam rutrum venenatis felis cursus tempor. Donec at lorem vel nibh vulputate dapibus sed vel sapien. Cras lorem risus, pretium nec lobortis cursus, eleifend non neque. Donec sit amet turpis eget augue gravida mattis.
                     </p>
-                    <p>
+                    <p class="great" id="greater">
                         Maecenas euismod libero ut massa cursus, et volutpat est maximus. Sed vitae quam mauris. Pellentesque dui felis, hendrerit ac volutpat vel, lacinia in diam. Sed vitae lectus lacus. Mauris vulputate in dolor id posuere. Nullam ut ante sit amet est finibus ullamcorper. Duis ac eros ac mi mollis scelerisque sed porta libero. Quisque at dignissim est. Nulla facilisi. Proin dignissim semper lacus, ut dignissim leo commodo ac.
                     </p>
                     <p>
                         Pellentesque pretium congue ante, sit amet condimentum nisl eleifend eget. Mauris vulputate luctus est, sed tincidunt risus pharetra nec. Suspendisse magna tortor, maximus sed eros at, dapibus fermentum mi. Sed vel risus tincidunt, pellentesque libero id, rhoncus diam. Ut quis consectetur mi, ac iaculis augue. Aliquam eleifend blandit massa quis aliquam. Maecenas eget porttitor nibh, sed dictum lectus. Sed iaculis lectus et quam mattis euismod. Morbi finibus dignissim quam, vitae sollicitudin magna mollis pretium. Maecenas rhoncus quam et auctor tristique.
                     </p>
-                    <p>
+                    <p class="great">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac urna consectetur elit rhoncus luctus. Ut at tristique ligula. Morbi ac ornare augue, et viverra lacus. In et velit a arcu tempor dignissim. Phasellus nec velit pulvinar, dapibus erat vitae, condimentum neque. Nulla et magna id lorem gravida laoreet vitae ut mauris. Etiam vitae velit et libero sagittis interdum. Morbi et dignissim magna. Proin mi dolor, rutrum in posuere ut, consectetur ac erat. Pellentesque tristique tristique magna vitae dignissim.
                     </p>
                     <p>
@@ -48,9 +55,16 @@
                 <h1>Help Section</h1>
                 <a href="mailto:david.tarvin@gmail.com?subject=Help%20Me&body=can%20you%20help%20me?">Contact your instructor!</a>
             </div>
+            <button class="btn btn-success">okay!</button>
+            <button class="btn btn-danger">No Way!</button>
         </main>
+        <div>
+            <p class="leia">
+                I'd rather kiss a wookie!
+            </p>
+        </div>
         
-        <footer>
+        <footer class="fantastic">
             Copyright 2021 Michael Caliguiri
         </footer>
     </body>
