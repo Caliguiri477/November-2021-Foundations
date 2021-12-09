@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block vs inline elements</title>
+    <style>
+        html {
+            font-size: x-large;
+            font-family: montserrat;
+        }
+        p {
+            border: 1px solid green;
+            /*margin: 3em; */
+            padding: 2em;
+        }
+        span {
+            color: red;
+            border: 1px solid red;
+            line-height: 2em;
+            padding: 3em;
+            margin: 1em;
+            width: 40%;
+            height: 15vh;
+            display: inline-block;
+        }
+        .stub {
+            display: inline-block;
+            /*margin: 1em; */
+        }
+        div {
+            height: 100px;
+            border: 6px solid purple;
+            width: 400px;
+            padding: 20px;
+            margin: 20px;
+            background-color: lightblue;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <p>
+        This is a test of the emergance broadcast system.
+    </p>
+    <P>
+        This is another test of the emergance broadcast system.
+    </P>
+    <p class="stub">First para</p>
+    <p class="stub">Second para</p>
+    <p class="stub">Third para</p>
+    <p>
+        This is the final test of the emergance broadcast system.
+    </p>
+    <div></div>
+</body>
+</html>
