@@ -1,6 +1,7 @@
 header {
     margin: 0;
 }
+
 img {  
     max-width: 20%;
     height: auto;  
@@ -40,6 +41,11 @@ h1, p {
     width: 700px;
     justify-content: center;
 }
+.dropbtn {
+    min-width: 300px;
+    font-size: 1em;
+}
+
 .dropdown {
     font-size: 3vh;
     position: relative;
