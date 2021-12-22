@@ -6,6 +6,12 @@
             box-sizing: border-box;
 }
 
+body {
+    background: #11073fe3;
+    color: rgb(39, 58, 110);
+    font: 300 16px/22px "lato", "open sans", helvetica, arial, sans-serif;
+}
+
 .group:before,
 .group:after {
     content: "";
@@ -39,7 +45,7 @@ h1, h3, h4, h5, p {
 }
 
 .btn-alt {
-    border: 1px sloid #dfe2e5;
+    border: 1px solid #dfe2e5;
     padding: 10px 30px;
 }
 
