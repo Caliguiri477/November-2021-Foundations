@@ -4,18 +4,13 @@ Custom styles
 ===========================
 */
 
-/* do we keep or delet?
+
 body {
     background: #11073fe3;
     color: rgb(39, 58, 110);
-    font: 300 16px/22px "lato", "open sans", helvetica, arial, sans-serif;
+    font: 300 16px/22px "Lato", "Open Sans", Helvetica, Arial, sans-serif;
 }
-*/
 
-body {
-    color: #273a6e;
-    font: 300 16px/22px "lato", "open sans", helvetica, arial, sans-serif;
-}
 
 
 /*
@@ -138,11 +133,6 @@ em {
     font-style: italic;
 }
 
-.tagline {
-    margin: 66px 0 22px 0;
-    text-align: right;
-}
-
 /*
 =========================
 Leads
@@ -168,10 +158,6 @@ p a {
     border-bottom: 1px solid #dfe2e5;
 }
 
-.teaser a:hover h3 {
-    color: #a9b2b9;
-}
-
 /*
 ========================
 Buttons 
@@ -185,7 +171,7 @@ Buttons
 }
 
 .btn-alt {
-    border: 1px solid #dfe2e5;
+    border: 1px solid #fff;
     padding: 10px 30px;
 }
 
@@ -203,21 +189,16 @@ Primary header
     padding-right: 1em;
 }
 
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+
 /*
 =========================
 Primary footer
 =========================
 */
-
-/*
-=========================
-Navigation
-=========================
-*/
-
-nav {
-    text-align: right;
-}
 
 .primary-footer {
     color: #6c89db;
@@ -229,6 +210,16 @@ nav {
 .primary-footer small {
     float: left;
     font-weight: 400;
+}
+
+/*
+=========================
+Navigation
+=========================
+*/
+
+nav {
+    text-align: right;
 }
 
 .primary-nav {
@@ -257,6 +248,10 @@ Home
 .hero p {
     font-size: 24px;
     font-weight: 100;
+}
+
+.teaser a:hover h3 {
+    color: #a9b2b9;
 }
 
 /*
