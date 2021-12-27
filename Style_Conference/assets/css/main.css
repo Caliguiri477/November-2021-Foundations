@@ -4,11 +4,19 @@ Custom styles
 ===========================
 */
 
+/* do we keep or delet?
 body {
     background: #11073fe3;
     color: rgb(39, 58, 110);
     font: 300 16px/22px "lato", "open sans", helvetica, arial, sans-serif;
 }
+*/
+
+body {
+    color: #273a6e;
+    font: 300 16px/22px "lato", "open sans", helvetica, arial, sans-serif;
+}
+
 
 /*
 ===========================
@@ -92,6 +100,49 @@ h1, h3, h4, h5, p {
     margin-bottom: 22px;
 }
 
+h1, h2, h3, h4 {
+    color: #6c89db;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    color: #4568c9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+strong {
+    font-weight: 400;
+}
+
+cite,
+em {
+    font-style: italic;
+}
+
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+
 /*
 =========================
 Leads
@@ -103,6 +154,23 @@ Leads
 Links
 =========================
 */
+
+a {
+    color: #6c89db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a9b2b9;
+}
+
+p a {
+    border-bottom: 1px solid #dfe2e5;
+}
+
+.teaser a:hover h3 {
+    color: #a9b2b9;
+}
 
 /*
 ========================
@@ -147,7 +215,13 @@ Navigation
 =========================
 */
 
+nav {
+    text-align: right;
+}
+
 .primary-footer {
+    color: #6c89db;
+    font-size: 14px;
     padding-bottom: 44px;
     padding-top: 44px;
 }
@@ -157,6 +231,13 @@ Navigation
     font-weight: 400;
 }
 
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
 /*
 =========================
 Home
@@ -164,7 +245,18 @@ Home
 */
 
 .hero {
+    line-height: 44px;
     padding: 22px 80px 66px 80px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 24px;
+    font-weight: 100;
 }
 
 /*
