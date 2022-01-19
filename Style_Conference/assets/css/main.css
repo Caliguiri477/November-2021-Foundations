@@ -96,7 +96,7 @@ Rows
 }
 
 .row-alt {
-    background: #cbe2c1;
+    background: #c1d0e2;
     background: -webkit-linear-gradient(to right, #8ea4cf, #b3d7e5);
     background: -moz-linear-gradient(to right, #8ea4cf, #b3d7e5);
     background: linear-gradient(to right, #8ea4cf, #b3d7e5);
@@ -209,18 +209,18 @@ Buttons
 
 .btn-alt:hover {
     background: #fff;
-    color: #647188;
+    color: #668cc9;
 }
 
 .btn-default {
     border: 0;
-    background: #648880;
+    background: #6c89db;
     padding: 11px 30px;
     font-size: 14px;
 }
 
 .btn-default:hover {
-    background: #77a198;
+    background: #778da148;
 }
 
 /*
@@ -247,7 +247,7 @@ Primary header
 }
 
 .primary-header a:hover {
-    color: #a9b2b9;
+    color: #acb8d8;
 }
 
 /*
@@ -273,7 +273,7 @@ Primary footer
 }
 
 .primary-footer a:hover {
-    color: #a9b2b9;
+    color: #acb8d8;
 }
 
 /*
