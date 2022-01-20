@@ -396,14 +396,14 @@ thead {
 }
 
 thead th {
-    color: #647188;
+    color: #648880;
     font-size: 24px;
 }
 
 tbody th {
     color: #a9b2b9;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 400;
     padding-top: 22px;
     text-transform: uppercase;
 }
@@ -476,7 +476,7 @@ font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, san
 .register-group input,
 .register-group select,
 .register-group textarea {
-    border: 1px solid #c6c9cc;
+    border: 1px solid #6c89db;
     border-radius: 5px;
     color: #888;
     display: block;
