@@ -30,3 +30,11 @@ nav > a {
 nav > div {
     margin: 1em;
 }
+
+nav > div >a:first-child {
+    border-left: 0;
+}
+
+header {
+    margin-top: 0;
+}
