@@ -228,9 +228,9 @@ footer {
 
 .box {
     padding-left: 10vw;
-    padding-right: 10vh;
-    margin-left: 7vh;
-    margin-right: 7vh;
+    padding-right: 10vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
     background-color: white;
 }
 
