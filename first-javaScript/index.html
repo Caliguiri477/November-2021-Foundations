@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First javaScript</title>
+</head>
+<body>
+    <h1>This is my first attempt at javaScript!</h1>
+
+    <script>
+        var total = 0;
+        total = total + 5;
+        total += 4;
+        total++;
+        console.log("The value of total is " + total);
+
+        var zombies = 13;
+        
+        if (zombies > 15) {
+            console.log("aaaarrrrgggghhhh Zombies!!!!");
+        } else if (zombies > 10) {
+            console.log("A few to many Zombies for my taste!");
+        } else {
+            console.log("Thank goodness there's not to many zombies around here!");
+        }
+
+        var grade = 90;
+        
+        if (grade >= 90) {
+            console.log("You got an A");
+        } else if(grade >= 80) {
+            console.log("You got a B");
+        } else if(grade >= 70) {
+            console.log("You got a C");
+        } else if(grade >= 60) {
+            console.log("You got a D");
+        } else {
+            console.log("You failed you dunce!")
+        }
+
+        var vampires = 13;
+        var night = false;
+        //if (vampires > 12 && night == true) {
+        //    console.log("save me from the vampires!");
+        //} else if(vampires <= 12 && night == true) {
+        //    console.log("Please help me escape the vampires!");
+        //} else if (vampires <=12 && night == false) {
+        //    console.log("thank goodness vampires sleep during the day");
+        //}
+
+        if (night == true) {
+            if (vampires > 12) {
+                console.log("save me from the vampires!");
+            } else {
+                console.log("Please help me escape the vampires!");
+            }
+        } else if (!night) {
+            console.log("thank goodness vampires sleep during the day");
+        }
+
+        var cars = ["Volvo", "Toyota", "Subaru", "Ford"];
+        for(var i = 0; i < cars.length; i++) {
+            console.log("car " + (i + 1) + " = " + cars[i])
+        }
+
+        var cars = ["Volvo", "Toyota", "Subaru", "Ford"];
+        for(var i = 3; i >= 0; i--) {
+            console.log("car " + (i + 1) + " = " + cars[i])
+        }
+
+        var cars = ["Volvo", "Toyota", "Subaru", "Ford"];
+        for(var i = 0; i < cars.length; i+=2) {
+            console.log("car " + (i + 1) + " = " + cars[i])
+        }
+
+        for (var i = 1; i <= 10; i++) {
+            console.log(i + " squared = " + i*i)
+        }
+
+        var i = 3;
+        while (i < cars.length) {
+            console.log("Car number " + (i + 1) + " is a " + cars[i]);
+            i++;
+        }
+
+        i = 11;
+        while (i <= 10) {
+            console.log(i + " times 3 = " + i*3);
+            i++;
+        }
+
+        do {
+            console.log(i + " times 4 = " + i*4);
+            i++;
+        } while (i <= 10);
+
+        function addThreePlusFive () {
+            console.log("Three plus five = " + (3 + 5));
+        }
+        addThreePlusFive();
+
+        function addTwoNumbers (num1, num2) {
+            var sum = num1 + num2;
+            console.log(num1 + " + " + num2 + " + " + sum);
+        }
+        addTwoNumbers(5, 12);
+        addTwoNumbers(-5, 20);
+
+        var student = "Mike";
+
+        function helloStudent () {
+            console.log("Hello " + student);
+        }
+
+        helloStudent();
+        console.log("Hey " + student);
+
+        var secondStudent = "Cory";
+        function helloSecondStudent() {
+            var secondStudent = "Katie";
+            console.log("Hello " + secondStudent);
+        }
+
+        console.log("Hi there " + secondStudent);
+        helloSecondStudent();
+        console.log("Hi there " + secondStudent);
+        
+        function helloThirdStudent() {
+            var thirdStudent = "Joe";
+            console.log("Whats's up " + thirdStudent);
+        }
+        helloThirdStudent();
+        console.log("How's it hangin " + thirdStudent);
+
+    </script>
+</body>
+</html>
