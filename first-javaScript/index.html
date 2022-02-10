@@ -131,8 +131,101 @@
             var thirdStudent = "Joe";
             console.log("Whats's up " + thirdStudent);
         }
-        helloThirdStudent();
-        console.log("How's it hangin " + thirdStudent);
+        //helloThirdStudent();
+        //console.log("How's it hangin " + thirdStudent);
+
+        function divisionAndRemainder(num1, num2) {
+            console.log(num1 + " divided by " + num2 + " is " + (num1 / num2) + " with " + (num1 % num2) + " left over.");
+        }
+        // 3 x 3 = 9, so if we divide 10 by 3, 3 goes in to 10 3 times with 1 left over
+        divisionAndRemainder (10, 3);
+        // 4 x 3 = 12, if we divid 14 by 4, we get 3 with 2 left over
+        divisionAndRemainder (14, 4);
+        // 5 x 6 = 30, if we divide 30 by 6, we get 5 with 0 left over
+        divisionAndRemainder (30,6);
+
+        function isVotingAge (name, age) {
+            var votable = (age < 18) ? "Too young" : "Old enough";
+            console.log(name + " is " + votable + " to vote.");
+        }
+        isVotingAge("john", 17);
+        isVotingAge("pam", 35);
+
+        function werewolfcheck(areWolves) {
+            if (!areWolves) {
+                console.log("No werewolves here!");
+            } else {
+                console.log("Wherewolves get me out of here!");
+            }
+        }
+        werewolfcheck(true);
+        werewolfcheck(false);
+        
+        function addMultipleNumbers(num1, num2) {
+            for ( var i = 1; i > 5; i++) {
+                var total = total + i;
+            }
+            total = total + num1 + num2;
+            console.log(" the total is " + total);
+        }
+        addMultipleNumbers(3, 7)
+        // i = 1; total = 1
+        // i = 2; total = 3
+        // i = 3; total = 6
+        // i = 4; total = 10
+        // total = 10 + 3 + 7 = 20
+
+        function areTrekkiesHere(areOtherOfficers) {
+            var shatner = "Kirk";
+            var nimoy = "Spock";
+            const takai = "Sulu";
+            console.log("The Captian is " + shatner);
+            console.log("The First Officer is " + nimoy);
+            console.log("The pilot is " + takai);
+            if (areOtherOfficers) {
+                var nichols = "Uhura";
+                var kelley = "Bones";
+            }
+            console.log("The Comms Officer is " + nichols);
+            console.log("The Doctor is " + kelley);
+            //takai = "Checkov";
+            //console.log("The new pilot is " + takai);
+        }
+        areTrekkiesHere(true);
+
+        {
+            const a = [1, 2, 3];
+            const b = {name: "hello"};
+            
+            a.push(4, 5); // mutating the value of const a
+            b.name = "world"; // mutating the value of const b
+
+            console.log(a); // this will show [1, 2, 3, 4, 5]
+            console.log(b); // this will show {name: "world"}
+        }
+
+        {
+            const worker = "Bill";
+            const radius = "3.14";
+
+            const a = [1, 2, 3];
+            const b = {name: "Hello"};
+
+            //worker = "Joe";
+            //radius = radius + 1;
+            //a = [1, 2, 3, 4, 5];
+            //b = {name: "World"};
+        }
+
+        var vegetables = ["radish", "beets", "broccoli", "brussle sprouts", "lima beans"];
+
+        function listVegetables(veggies) {
+            veggies.forEach(function(veggie) {
+                console.log("I like to eat " + veggie)
+            });
+        }
+
+        listVegetables(vegetables);
 
     </script>
 </body>
