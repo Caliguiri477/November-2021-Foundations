@@ -3,6 +3,41 @@ body {
     margin: 0;
 }
 
+footer > div{
+    position: absolute;
+    color: azure;
+    top:75%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #41BBE0;
+}
+
+dl {
+    width: 50%;
+}
+
+main {
+    position: absolute;
+    display: flexbox;
+    left: 25%;
+}
+
+form {
+    position: absolute;
+    display: flexbox;
+    left: 55%;
+}
+
+.info {
+    font-size: 5vh;
+}
+
+.data {
+    line-height: 2vh;
+    font-size: 2vh;
+}
+
 h1 {
     font-style: italic;
 }

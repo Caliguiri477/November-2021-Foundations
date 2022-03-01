@@ -5,23 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final project</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/page4.css">
     <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
-    <nav class="grid-container">
-        <div class="item1"><h1>MC's Cleaning and Supply</h1></div>
-        <div class="item2"><a href="home.html"><h2>Home</h2></a></div>
-        <div class="item3"><a href="page_2.html"><h2>Our Services</h2></a></div>
-        <div class="item4"><a href="page_3.html"><h2>Shop</h2></a></div>
-        <div class="item5"><a href="page_4.html"><h2>Contact Us</h2></a></div>
-        <div class="item6"><a href="page_5.html"><h2>Testimonials</h2></a></div>
-    </nav>
-    <div>
-
-    </div>
-    <div>
-        
-    </div>
+    <header>
+        <nav class="grid-container">
+            <div class="item1"><h1>MC's Cleaning and Supply</h1></div>
+            <div class="item2"><a href="home.html"><h2>Home</h2></a></div>
+            <div class="item3"><a href="page_2.html"><h2>Our Services</h2></a></div>
+            <div class="item4"><a href="page_3.html"><h2>Shop</h2></a></div>
+            <div class="item5"><a href="page_4.html"><h2>Contact Us</h2></a></div>
+            <div class="item6"><a href="page_5.html"><h2>Testimonials</h2></a></div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <P class="info">
+                Contact Us
+            </P>
+            <dl class="data">
+                <dt>Call us</dt>
+                <br>
+                <dd>
+                    Michael Caliguiri (123)-456-7890
+                </dd>
+                <br>
+                <dt>Address</dt>
+                <br>
+                <dd>
+                    1234 Nowhere Rd, Space, Earth, 54321
+                </dd>
+                <br>
+                <dt>Email us</dt>
+                <br>
+                <dd>
+                    <a href="mailto:michael.caliguiri@mccleaning.com">michael.caliguiri@mccleaning.com</a>
+                </dd>
+            </dl>
+        </div>
+    </main>
+    <form method="post" action="https://www.notareallink.com/formmail.asp">
+        <p class="info">
+            Request A Quote
+        </p>
+        <p>
+            <label for="name" class="enter-info">
+                <input placeholder="Full name" type="text" id="name" required>
+            </label>
+        </p>
+        <p>
+            <label for="number" class="enter-info">
+                <input placeholder="Phone number" type="text" id="number" required>
+            </label>
+        </p>
+        <p>
+            <label for="email" class="enter-info">
+                <input placeholder="E-mail" type="email" id="email" required>
+            </label>
+        </p>
+        <p>
+            <label for="address" class="enter-info">
+                <input placeholder="Address" type="text" id="address" required>
+            </label>
+        </p>
+        <label for="services">Select a service</label>
+        <select name="services" id="services">
+            <option value="#" aria-placeholder="Please select a service"></option>
+            <option value="roof">Roof cleaning</option>
+            <option value="home">Home exterior cleaning</option>
+            <option value="drive">Drive way cleaning</option>
+            <option value="commercial">Commercial building cleaning</option>
+        </select>
+        <p>
+            <textarea placeholder="Any additional information" name="comments" id="comments" cols="60" rows="5"></textarea>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+    <footer>
+        <div>
+            <p>
+                Areas we cover!
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

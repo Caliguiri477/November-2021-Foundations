@@ -97,20 +97,3 @@ nav > div > a {
     position: relative;
     left: 320%;
 }
-/*.home {
-    position: absolute;
-    top: 0;
-    transform: translateX(170%);
-}
-
-.drive {
-    position: absolute;
-    top: 0;
-    transform: translateX(400%);
-}
-
-.commercial {
-    position: absolute;
-    top: 0;
-    transform: translateX(375%);
-}
