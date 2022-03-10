@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+article#home {
+    background: url('../images/kitten-v.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+article#about {
+    background: url('../images/kitten-flying-v.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+.kitty {
+    position: relative;
+    inline-size: 130px;
+    right: -8%;
+    top: 2%;
+    font-size: .9em;
+    text-align: left;
+    text-shadow: 1px 1px #fff;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 1%;
+    right: 3%;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: right;
+}
+
+.navbar ul li {
+    margin: 0 .5rem;
+    padding: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 1em;
+    word-spacing: .5em;
+}
+
+h1 {
+    position: fixed;
+    left: 2%;
+    font-size: 1.5em;
+    margin: 0;
+    top: 0;
+}
+
+h2 {
+    position: fixed;
+    left: 2%;
+    top: 9%;
+    font-size: 1em;
+}
+
+.shadow {
+    color: orange;
+    text-shadow: 1px 1px black;
+}
+
+.flip {
+    color: rgb(229, 9, 0);
+    position: relative;
+    top: .2em;
+    width: 15%;
+    display: inline-block;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.flip:hover{
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1;
+    -o-transition: 1s;
+    -webkit-transform: rotatey(180deg);
+    -moz-transform: rotatey(180deg);
+    -o-transform: rotatey(180deg);
+    -ms-transform: rotatey(180deg);
+    transform: rotatey(180deg);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    background-color: black;
+    border-radius: .8em;
+    padding: 10px;
+    margin: 0;
+    border: 3px solid orange;
+    width: 58%;
+    height: 16%;
+    opacity: .8;
+    max-width: 100%;
+}
+
+.close {
+    position: absolute;
+    font-size: 40px;
+    left: 95%;
+    top: -18%;
+}
+
+#text {
+    color: orange;
+    font-size: .7em;
+}
+
+.name {
+    position: absolute;
+    list-style: none;
+    top: 5%;
+    inline-size: 45px;
+    overflow-wrap: break-word;
+    right: 77%;
+}
+
+.sum {
+    position: absolute;
+    list-style: none;
+    top: 5%;
+    left: 7%;
+    inline-size: 130px;
+}
+
+.date {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    left: 60%;
+    top: 5%;
+    line-height: 2.5vh;
+}
