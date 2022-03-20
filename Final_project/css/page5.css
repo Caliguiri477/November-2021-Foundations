@@ -4,13 +4,24 @@ body {
 }
 
 h1 {
+    font-size: 3vh;
     font-style: italic;
+    height: 100%;
+    width: 100%;
 }
 
 nav > div{
     background-color: white;
     padding: 0.5em;
     text-align: center;
+}
+
+hr {
+    height: 1px;
+    background: red;
+    width: 60%;
+    border-radius: 2em;
+    border: none;
 }
 
 nav > div > a {
@@ -48,4 +59,6 @@ nav > div > a {
     padding: .5em;
     background-color: #41BBE0;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
