@@ -16,6 +16,11 @@ a:visited {
     color: #41BBE0;
 }
 
+a:hover {
+    transition: 2s;
+    color: black;
+}
+
 #chemicals {
     float: right;
     width: 50%;

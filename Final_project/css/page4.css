@@ -12,6 +12,11 @@ a:visited {
     color: #41BBE0;
 }
 
+a:hover {
+    transition: 2s;
+    color: black;
+}
+
 h1 {
     font-style: italic;
 }
@@ -41,7 +46,7 @@ dl {
     width: 50%;
 }
 
-main {
+section {
     position: absolute;
     display: flexbox;
     left: 25%;

@@ -12,6 +12,16 @@ a:visited {
     color: #B7E6FA;
 }
 
+a:hover {
+    transition: 2s;
+    color: black;
+}
+
+p::first-letter {
+    font-style: italic;
+    font-size: 120%;
+}
+
 #intro {
     font-size: 2em;
 }
@@ -36,7 +46,7 @@ nav > div > a {
 
 footer {
     position: absolute;
-    top: 88vh;
+    top: 79vh;
     width: 99.5%;
     height: 20%;
     text-align: center;

@@ -14,6 +14,11 @@ a:visited {
     color: #41BBE0;
 }
 
+a:hover {
+    transition: 2s;
+    color: black;
+}
+
 img {
     position: absolute;
     display: flex;
@@ -76,6 +81,7 @@ nav > div > a {
 
 .text {
     position: absolute;
+    transform: skewy(5deg);
     top: 50%;
     right: 0%;
     width: 50%;

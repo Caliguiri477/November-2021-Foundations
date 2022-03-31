@@ -12,6 +12,11 @@ a:visited {
     color: #41BBE0;
 }
 
+a:hover {
+    transition: 2s;
+    color: black;
+}
+
 footer {
     position: relative;
     width: 99.5%;
