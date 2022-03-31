@@ -9,11 +9,38 @@ current = (current != slides.length - 1) ? current + 1 : 0;
 slides[current].style.opacity = 1;
 }, 3000);
 
-var formData = new FormData();
-formData.append("#email");
-formData.append("key_two", "Second value");
-formData.append("key_three", "Thrid value");
+var nameInput = document.getElementById('name');
 
-for (var pair of formData.entries()) {
-    console.log("");
-}
+document.querySelector('form.form').addEventListener('submit', function (e) {
+
+    e.preventDefault();
+
+    console.log("Name: "+ nameInput.value);    
+});
+
+var numberInput = document.getElementById('number');
+
+document.querySelector('form.form').addEventListener('submit', function (e) {
+
+    e.preventDefault();
+
+    console.log("Phone number: "+ numberInput.value);    
+});
+
+var mailInput = document.getElementById('email');
+
+document.querySelector('form.form').addEventListener('submit', function (e) {
+
+    e.preventDefault();
+
+    console.log("E-mail: "+ mailInput.value);    
+});
+
+var addressInput = document.getElementById('address');
+
+document.querySelector('form.form').addEventListener('submit', function (e) {
+
+    e.preventDefault();
+
+    console.log("Address: "+ addressInput.value);    
+});
