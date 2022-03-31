@@ -1,6 +1,27 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+}
+
+a:link {
+    color: #B7E6FA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #41BBE0;
+}
+
+h1 {
+    font-style: italic;
+}
+
+h2 {
+    -webkit-text-stroke: 1px black;
+}
+
+dt {
+    font-size: 1.5em;
 }
 
 img {
@@ -37,9 +58,7 @@ form {
 }
 
 #address {
-    position: absolute;
-    left: 50%;
-    top: 50.5%;
+    position: relative;
 }
 
 #area {
@@ -50,9 +69,7 @@ form {
 }
 
 #phone {
-    position: absolute;
-    left: 50%;
-    top: 41%;
+    position: relative;
 }
 
 .line1 {
@@ -87,12 +104,8 @@ form {
     font-size: 2vh;
 }
 
-h1 {
-    font-style: italic;
-}
-
 nav > div{
-    background-color: white;
+    background-color: #B7E6FA;
     padding: 0.5em;
     text-align: center;
 }

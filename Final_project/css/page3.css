@@ -1,14 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+}
+
+a:link {
+    color: #B7E6FA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #41BBE0;
+}
+
+#chemicals {
+    float: right;
+    width: 50%;
+    border: 2px solid black;
+}
+
+#tools {
+    float: left;
+    width: 50%;
+    border: 2px solid black;
+}
+
+img {
+    width: 30%;
+}
+
+.welcome {
+    width: 100%;
+    padding: 2vh 0 2vh 0;
+    text-align: center;
+    background-color: #41BBE0;
 }
 
 h1 {
     font-style: italic;
 }
 
+h2 {
+    -webkit-text-stroke: 1px black;
+}
+
 nav > div{
-    background-color: white;
+    background-color: #B7E6FA;
     padding: 0.5em;
     text-align: center;
 }

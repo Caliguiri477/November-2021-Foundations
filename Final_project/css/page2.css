@@ -5,11 +5,20 @@ body {
     height: 100%;
 }
 
+a:link {
+    color: #B7E6FA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #41BBE0;
+}
+
 img {
     position: absolute;
     display: flex;
     object-fit: cover;
-    height: 40%;
+    height: 50%;
     width: 100%;
 }
 
@@ -17,8 +26,12 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    -webkit-text-stroke: 1px black;
+}
+
 nav > div{
-    background-color: white;
+    background-color: #B7E6FA;
     padding: 0.5em;
     text-align: center;
 }
@@ -63,21 +76,25 @@ nav > div > a {
 
 .text {
     position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 50%;
     background-color: #41BBE0;
     color: #fff;
     font-size: 2em;
-    top: 40%;
-    transform: translateX(410%);
-    margin: 0;
+    margin: 0 auto;
     padding: 1vh 1vh;
-    border-radius: 1em;
+    border-radius: 1em 0 0 1em;
     border: #fff;
 }
 
 #grid-container2 {
     position: relative;
     display: grid;
-    top: 40vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 45vh;
     grid-template-areas: 
     'grid grid grid gird'
     ;
@@ -87,7 +104,7 @@ nav > div > a {
 }
 
 .grid {
-    background-color: #fff;
+    background-color: #B7E6FA;
     border: 1px solid black;
     line-height: 4.5vh;
     font-size: 3vh;
