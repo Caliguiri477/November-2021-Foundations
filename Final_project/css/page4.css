@@ -34,10 +34,10 @@ img {
 }
 
 footer > div{
-    position: absolute;
+    position: relative;
     color: black;
-    top:75%;
-    height: 25%;
+    top: 60vh;
+    height: 19vh;
     width: 100%;
     display: flex;
 }
@@ -80,27 +80,27 @@ form {
 .line1 {
     position: absolute;
     transform: translatey(10%);
-    left: 40%;
+    left: 45%;
     margin: 0;
-    font-size: 2.5vh;
+    font-size: 2vh;
     list-style: none;
 }
 
 .line2 {
     position: absolute;
     transform: translatey(10%);
-    left: 50%;
+    left: 55%;
     margin: 0;
-    font-size: 2.5vh;
+    font-size: 2vh;
     list-style: none;
 }
 
 .line3 {
     position: absolute;
     transform: translatey(25%);
-    left: 60%;
+    left: 65%;
     margin: 0;
-    font-size: 2.5vh;
+    font-size: 2vh;
     list-style: none;
 }
 

@@ -42,5 +42,5 @@ document.querySelector('form.form').addEventListener('submit', function (e) {
 
     e.preventDefault();
 
-    console.log("Address: "+ addressInput.value);    
+    console.log("Address: " + addressInput.value);    
 });
