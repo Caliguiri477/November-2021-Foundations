@@ -15,11 +15,14 @@
     <h2>only on <img class="flip" src="images/netflix.png" alt=""></h2>
     <nav class="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#" id="mybtn">Schedule</a></li>
-            <li><a href="#">Contact</a></li>
+            <li class="one"><a href="#home">Home</a></li>
+            <li class="one"><a href="#about">About</a></li>
+            <li class="one"><a href="#" id="mybtn">Schedule</a></li>
+            <li class="one"><a href="#" id="mybtn">Contact</a></li>
         </ul>
+        <div class="hide">
+            <i class="far fa-solid fa-paw"></i>
+        </div>
     </nav>
     <article id="home">
     </article>
@@ -31,43 +34,29 @@
     <div id="mymodal" class="modal">
         <div class="modal-content">
             <span class="close"><img src="images/close.png" alt=""></span>
-            <table>
+            <table id="text">
                 <tr>
                     <td>Silly Kitty</td>
-                    <td>Trouble in Orange</td>
-                    <td>Claws of Fury</td>
-                </tr>
-                <tr>
                     <td>The first episode in which we meet a very silly kitty</td>
-                    <td>Silly kitty gets lost and spends the night in a kitty lockup</td>
-                    <td>Ninja cat attacts the home and silly kitty must defend his family!</td>
+                    <td>07/05/2016</td>
                 </tr>
                 <tr>
-                    <td>07/05/2016</td>
+                    <td>Trouble in Orange</td>
+                    <td>Silly kitty gets lost and spends the night in a kitty lockup</td>
                     <td>07/12/2016</td>
+                </tr>
+                <tr>
+                    <td>Claws of Fury</td>
+                    <td>Ninja cat attacts the home and silly kitty must defend his family!</td>
                     <td>07/19/2016</td>
                 </tr>
             </table>
-            <!--<ul id="text">
-                <ul class="name">
-                    <li>Silly Kitty</li>
-                    <br>
-                    <li>Trouble in Orange</li>
-                    <li>Claws of Fury</li>
-                </ul>
-                <ul class="sum">
-                    <li>The first episode in which we meet a very silly kitty</li>
-                    <li>Silly kitty gets lost and spends the night in a kitty lockup</li>
-                    <li>Ninja cat attacts the home and silly kitty must defend his family!</li>
-                </ul>
-                <ul class="date">
-                    <li>07/05/2016</li>
-                    <br>
-                    <li>07/12/2016</li>
-                    <br>
-                    <li>07/19/2016</li>
-                </ul>
-            </ul>-->
+        </div>
+    </div>
+    <div id="mymodal" class="modal">
+        <div class="modal-content">
+            <span class="close"><img src="images/close.png" alt=""></span>
+            <p>(402) 555-5555 </p>
         </div>
     </div>
     <script src="js/orange.js"></script>
